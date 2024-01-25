@@ -1,52 +1,57 @@
-
-
 html {
-    background-color: #041E35;
-    /* background-color: #0B3A5070; */
-    /* 之後把透明度改去掉 */
+    /* background-color: #0b3a50; */
+    background-color: #0B3A5070;
 }
 
 body {
-    line-height: 1.6rem;
+    /* line-height: 1.6rem; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    height: 100%;
 }
 
-#topbar {
+.topbar *,
+.section-pri * {
+    margin: 0;
+}
+
+.topbar {
     width: 100%;
     height: 120px;
-    background-color: #07294080;
-    position: absolute;
-    top: 0;
+    /* background-color: #07294080; */
+    background-color: #0b3a50;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+h4 {
+    padding-bottom: 30px;
+}
+
+h5 {
+    line-height: 150%;
 }
 
 
 /* --------------------------------------------------------- */
 /* 隱私權頁專用 */
-#section-pri {
-    background-image: linear-gradient(#104C60, #041E35);
-    /* background-image: url(../img/section1.png); */
-    /* padding-bottom: 160px; */
-    /* margin-bottom: 160px; */
-    position: absolute;
-    z-index: -1;
-}
+
 
 .section-pri {
-    width: 100%;
-    height: 2824px;
-    background-size: cover;
+    background-image: linear-gradient(#104C60, #041E35);
+    background-color: #104C60;
+    position: relative;
+    padding: 0 10%;
+    height: 100%;
 }
 
 .container-pri {
-    width: 80%;
-    /* height: 100%; */
-    position: relative;
-    top: 160px;
-    left: 50%;
     color: #D0F2F8;
-    transform: translateX(-50%);
-    padding-bottom: 180px;
-    /* margin-bottom: 180px; */
+    padding: 50px 0;
 }
+
 
 .container-pri h4 {
     font-size: large;
@@ -65,33 +70,20 @@ body {
     line-height: 1.6rem;
 }
 
-#footer-pri {
-    width: 100%;
-    /* height: 160px; */
-    height: auto;
-    /* background-color: #0B3A50E6; */
-    background-color: #166170E6;
-    position: fixed;
-    bottom: 0;
+.footer-pri {
+    background-color: #0b3a50;
+    position: relative;
 }
+
 
 /* --------------------------------------------------------- */
 
 /* 限制左右 */
 .container {
-    width: 80%;
+    display: flex;
+    align-items: center;
     height: 100%;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.logoimg {
-    width: 252px;
-    height: 49px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    padding: 0 10%;
 }
 
 .footer-text {
@@ -108,39 +100,19 @@ body {
     color: white;
 }
 
+
+.footer-text a {
+    color: white;
+}
+
 /* RWD ---------------------- RWD -------------------------------------------------*/
-
-@media (min-width: 0px) {
-
-}
-
-/* -------------------------------------------------------------------------- */
-@media (min-width: 576px) {
-
-}
-
-/* -------------------------------------------------------------------------- */
 @media (min-width: 768px) {
 
-    .container-pri {
-        /* margin-bottom: 160px;  */
-        /* 調整在RWD下的空間 */
+    /* .container-pri {
         padding-bottom: 180px;
-    }
+    } */
+    /* margin-bottom: 160px;  */
+    /* 調整在RWD下的空間 */
 }
 
-/* -------------------------------------------------------------------------- */
-@media (min-width: 992px) {
-    
-}
 
-/* -------------------------------------------------------------------------- */
-@media (min-width: 1200px) {
-    
-}
-
-/* -------------------------------------------------------------------------- */
-@media (min-width: 1400px) {
-    
-
-}
