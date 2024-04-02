@@ -116,17 +116,12 @@ h2 {
     margin-bottom: 32px;
 }
 
-/* .footer {
-    width: 100%;
-    height: auto;
-    background-color: #0b3a50;
-} */
 
 .footer-text {
     color: #D0F2F8;
     width: 80%;
     padding: 12px;
-    margin: auto;
+    margin: 20px auto;
     text-align: center;
     font-size: 0.9rem;
     line-height: 1.6rem;
@@ -140,6 +135,13 @@ h2 {
 @media (min-width: 0px) and (max-width: 280px) {
 
     .container {
+        width: 80%;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .app-store-block {
         width: 80%;
         height: 100%;
         position: absolute;
@@ -182,7 +184,6 @@ h2 {
         flex-direction: column;
         text-align: center;
     }
-
 
 
     .flex3 {
@@ -230,6 +231,14 @@ h2 {
         transform: translateX(-50%);
     }
 
+    .app-store-block {
+        width: 80%;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
     .section1_text {
         width: 80%;
         color: white;
@@ -264,7 +273,6 @@ h2 {
         flex-direction: column;
         text-align: center;
     }
-
 
 
     .flex3 {
@@ -303,10 +311,17 @@ h2 {
 
 /* -------------------------------------------------------------------------- */
 @media (min-width: 321px) and (max-width: 539px) {
-
     .container {
         width: 80%;
         height: 100%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .app-store-block {
+        width: 80%;
+        height: 900px;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
@@ -346,7 +361,6 @@ h2 {
         flex-direction: column;
         text-align: center;
     }
-
 
 
     .flex3 {
@@ -393,6 +407,13 @@ h2 {
         left: 50%;
         transform: translateX(-50%);
     }
+    .app-store-block {
+        width: 80%;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 
     .section1_text {
         width: 80%;
@@ -430,7 +451,6 @@ h2 {
     }
 
 
-
     .flex3 {
         flex-wrap: wrap;
     }
@@ -466,9 +486,16 @@ h2 {
 }
 
 /* -------------------------------------------------------------------------- */
-@media (min-width: 576px){
-    
+@media (min-width: 576px) {
+
     .container {
+        width: 80%;
+        height: 75%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+.app-store-block {
         width: 80%;
         height: 75%;
         position: absolute;
@@ -518,7 +545,6 @@ h2 {
         text-align: center; */
     }
 
-    
 
     .flex3 {
         flex-wrap: wrap;
@@ -551,7 +577,14 @@ h2 {
 
 /* 有修改此處的範圍 */
 @media (min-width: 575px) and (max-width: 768px) {
-
+    .app-store-block {
+        width: 80%;
+        height: 700px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
     .sec2-item {
         width: 20%;
         left: 0%;
@@ -562,7 +595,14 @@ h2 {
 
 /* -------------------------------------------------------------------------- */
 @media (min-width: 768px) {
-
+    .app-store-block {
+        width: 80%;
+        height: 700px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
     .section1 {
         width: 100%;
         height: 700px;
@@ -572,7 +612,7 @@ h2 {
         width: 100%;
         height: 700px;
     }
-    
+
     .section3 {
         width: 100%;
         height: 900px;
@@ -599,7 +639,7 @@ h2 {
         justify-content: space-around;
         align-items: center;
         align-content: center;
-        margin-top: 10%;
+        margin-top: 22%;
     }
 
     .QRcode {
@@ -610,6 +650,14 @@ h2 {
 
 /* -------------------------------------------------------------------------- */
 @media (min-width: 992px) and (max-width: 1023px) {
+    .app-store-block {
+        width: 80%;
+        height: 700px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
     .section1 {
         width: 100%;
         height: 800px;
@@ -619,7 +667,7 @@ h2 {
         width: 100%;
         height: 800px;
     }
-    
+
     .section3 {
         width: 100%;
         height: 900px;
@@ -634,7 +682,7 @@ h2 {
         justify-content: space-around;
         align-items: center;
         align-content: center;
-        /* margin-top: 10%; */
+        margin-top: 18%;
     }
 
     .flex2 {
@@ -642,6 +690,7 @@ h2 {
         justify-content: space-evenly;
         align-items: flex-start;
     }
+
     .QRcode {
         display: block;
     }
@@ -649,6 +698,13 @@ h2 {
 
 /* -------------------------------------------------------------------------- */
 @media (min-width: 1024px) and (max-width: 1199px) {
+    .app-store-block {
+        width: 80%;
+        height: 700px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
     .section1 {
         width: 100%;
         height: 800px;
@@ -658,7 +714,7 @@ h2 {
         width: 100%;
         height: 800px;
     }
-    
+
     .section3 {
         width: 100%;
         height: 900px;
@@ -669,6 +725,7 @@ h2 {
     }
 
     .flex3 {
+        margin-top: 14%;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -680,6 +737,7 @@ h2 {
         justify-content: space-evenly;
         align-items: flex-start;
     }
+
     .QRcode {
         display: block;
     }
@@ -707,6 +765,14 @@ h2 {
         left: 50%;
         transform: translateX(-50%);
     }
+    
+    .app-store-block {
+        width: 80%;
+        height: 700px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 
     .section1 {
         width: 100%;
@@ -717,7 +783,7 @@ h2 {
         width: 100%;
         height: 900px;
     }
-    
+
     .section3 {
         width: 100%;
         height: 800px;
@@ -729,12 +795,16 @@ h2 {
 
     .sec2-item p {
         width: 100%;
-    } 
+    }
 
     .flex2 {
         display: flex;
         justify-content: space-evenly;
         align-items: flex-start;
+    }
+
+    .flex3 {
+        margin-top: 8%;
     }
 }
 
@@ -752,17 +822,29 @@ h2 {
         padding-right: 10%;
     }
 
+    .app-store-block {
+        width: 80%;
+        height: 700px;
+        position: absolute;
+        /* left: 50%;
+        transform: translateX(-50%); */
+        display: flex;
+        align-items: center;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
     .section1 {
         width: 100%;
         height: 1080px;
-        
+
     }
-    
+
     .section2 {
         width: 100%;
         height: 1080px;
     }
-    
+
     .section3 {
         width: 100%;
         height: 1000px;
@@ -781,14 +863,16 @@ h2 {
 
     .sec2-item p {
         width: 100%;
-    } 
+    }
 
     .flex2 {
         display: flex;
         justify-content: space-evenly;
         align-items: flex-start;
     }
-
     
+    .flex3 {
+        margin-top: 12%;
+    }
 
 }
